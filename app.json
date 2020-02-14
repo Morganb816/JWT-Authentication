@@ -4,6 +4,6 @@
         "http://localhost:3000",
         "https://localhost:3000"
     ],
-    "authExpireTime": "5m",
+    "authExpireTime": "10m",
     "databaseUrl": "mongodb://127.0.0.1/authtest"
 }
