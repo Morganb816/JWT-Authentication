@@ -4,6 +4,11 @@ import config from '../../app.json';
 import { createAccountModel } from './repository/accountRepository';
 import { createRefreshModel } from './repository/refreshRepository';
 
+/**
+ * db is our connection to the database. it is exported to be used across the application.
+ * @export
+ * @mongoose
+ */
 let db: typeof mongoose | undefined = undefined;
 
 export let accountModel: Model<any> | undefined = undefined;

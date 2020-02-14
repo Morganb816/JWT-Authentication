@@ -1,7 +1,17 @@
+/**
+ * @module Authorization Controller
+ */
+
 import { Router } from 'express';
 import { loginService, signupService, refreshService, logoutService } from '../service/authService';
 import { authenticated } from '../middleware/authorized';
 
+/**
+ * Auth Controller.
+ * This is our controller for handling authorization related services.
+ * @export
+ * @Router
+ */
 const authController: Router = Router();
 
 authController.post('/login', loginService);

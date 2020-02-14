@@ -1,6 +1,11 @@
 import config from '../app.json';
 import { CorsOptions } from 'cors';
 
+/**
+ * Cors configuration for our application.
+ * @export
+ * @CorsOptions
+ */
 const corsConfig: CorsOptions = {
     origin: (origin: string | undefined, callback: (err: Error | null, allow?: boolean) => void): void => {
         if (!origin) return callback(null, true);

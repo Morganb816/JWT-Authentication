@@ -8,12 +8,25 @@ import { createToken, createRefreshToken } from "../util/token";
 import { createRefresh, getRefresh, deleteRefresh } from "../database/repository/refreshRepository";
 import { Refresh } from "../class/Refresh";
 
+/**
+ * Error string variables.
+ * so if you cant type like me you dont need to worry.
+ */
 const EXISTS = 'EXISTS';
 const TOKEN = 'TOKEN';
 const CREATION = 'CREATION';
 const PASSWORD = 'PASSWORD';
 const NOT_FOUND = 'NOT_FOUND';
 
+/**
+ * Login Service
+ * This service logs a requested user into our application responding with a set of tokens.
+ * @export
+ * @param  {Request} req 
+ * @param  {Response} res 
+ * @param  {NextFunction} next 
+ * @return Promise<void> 
+ */
 export async function loginService(req: Request, res: Response, next: NextFunction): Promise<void> {
     const { username, password } = req.body;
 
@@ -43,7 +56,15 @@ export async function loginService(req: Request, res: Response, next: NextFuncti
         }
     }
 }
-
+/**
+ * Signup Service
+ * This service signs a new user up to our application and also responds with a set of tokens.
+ * @export
+ * @param  {Request} req 
+ * @param  {Response} res 
+ * @param  {NextFunction} next 
+ * @return Promise<void> 
+ */
 export async function signupService(req: Request, res: Response, next: NextFunction): Promise<void> {
     const { username, password } = req.body;
 
@@ -75,7 +96,15 @@ export async function signupService(req: Request, res: Response, next: NextFunct
         }
     }
 }
-
+/**
+ * Refresh Service
+ * Refresh service refreshes a users tokens if they have gone stale.
+ * @export
+ * @param  {Request} req 
+ * @param  {Response} res 
+ * @param  {NextFunction} next 
+ * @return Promise<void> 
+ */
 export async function refreshService(req: Request, res: Response, next: NextFunction): Promise<void> {
     try {
         const oldToken: string = req.cookies['refresh-token'];
@@ -101,7 +130,16 @@ export async function refreshService(req: Request, res: Response, next: NextFunc
         }
     }
 }
-
+/**
+ * Logout Service
+ * Logout service logs a user our of our application by setting there tokens to empty strings and deleting
+ * the refresh token they were using from our database.
+ * @export
+ * @param  {Request} req 
+ * @param  {Response} res 
+ * @param  {NextFunction} next 
+ * @return Promise<void> 
+ */
 export async function logoutService(req: Request, res: Response, next: NextFunction): Promise<void> {
     try {
         await deleteRefresh(refreshModel, req.cookies['refresh-token']);

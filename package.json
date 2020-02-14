@@ -5,13 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tsnd --respawn --transpileOnly ./src/app.ts"
+    "dev": "tsnd --respawn --transpileOnly ./src/app.ts",
+    "document": "npx typedoc --out ../docs ./src"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@microsoft/tsdoc": "^0.12.16",
     "ts-node-dev": "^1.0.0-pre.44",
+    "typedoc": "^0.16.9",
     "typescript": "^3.7.5"
   },
   "dependencies": {
