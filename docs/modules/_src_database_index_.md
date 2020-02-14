@@ -1,4 +1,4 @@
-[rewrite](../README.md) › [Globals](../globals.md) › ["src/database/index"](_src_database_index_.md)
+[jwt-express-api](../README.md) › [Globals](../globals.md) › ["src/database/index"](_src_database_index_.md)
 
 # External module: "src/database/index"
 
@@ -16,7 +16,7 @@
 
 • **accountModel**: *Model‹any› | undefined* = undefined
 
-*Defined in [src/database/index.ts:14](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/database/index.ts#L14)*
+*Defined in [src/database/index.ts:14](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/database/index.ts#L14)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 • **db**: *typeof mongoose | undefined* = undefined
 
-*Defined in [src/database/index.ts:12](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/database/index.ts#L12)*
+*Defined in [src/database/index.ts:12](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/database/index.ts#L12)*
 
 db is our connection to the database. it is exported to be used across the application.
 
@@ -38,4 +38,4 @@ ___
 
 • **refreshModel**: *Model‹any› | undefined* = undefined
 
-*Defined in [src/database/index.ts:15](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/database/index.ts#L15)*
+*Defined in [src/database/index.ts:15](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/database/index.ts#L15)*

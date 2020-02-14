@@ -1,4 +1,4 @@
-[rewrite](../README.md) › [Globals](../globals.md) › ["src/util/hash"](_src_util_hash_.md)
+[jwt-express-api](../README.md) › [Globals](../globals.md) › ["src/util/hash"](_src_util_hash_.md)
 
 # External module: "src/util/hash"
 
@@ -15,7 +15,7 @@
 
 ▸ **checkStringAgainstHash**(`str`: string, `hash`: string): *boolean*
 
-*Defined in [src/util/hash.ts:18](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/util/hash.ts#L18)*
+*Defined in [src/util/hash.ts:18](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/util/hash.ts#L18)*
 
 Checks if a given string is equal to a given hash.
 
@@ -38,7 +38,7 @@ ___
 
 ▸ **hashString**(`str`: string): *string*
 
-*Defined in [src/util/hash.ts:8](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/util/hash.ts#L8)*
+*Defined in [src/util/hash.ts:8](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/util/hash.ts#L8)*
 
 Hashes a given string into a secure string
 

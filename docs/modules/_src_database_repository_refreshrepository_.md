@@ -1,4 +1,4 @@
-[rewrite](../README.md) › [Globals](../globals.md) › ["src/database/repository/refreshRepository"](_src_database_repository_refreshrepository_.md)
+[jwt-express-api](../README.md) › [Globals](../globals.md) › ["src/database/repository/refreshRepository"](_src_database_repository_refreshrepository_.md)
 
 # External module: "src/database/repository/refreshRepository"
 
@@ -23,7 +23,7 @@
         return createSync(model, { token: data.token, username: data.username });
     })
 
-*Defined in [src/database/repository/refreshRepository.ts:43](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/database/repository/refreshRepository.ts#L43)*
+*Defined in [src/database/repository/refreshRepository.ts:43](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/database/repository/refreshRepository.ts#L43)*
 
 Creates a new refresh token for a specific user.
 
@@ -42,7 +42,7 @@ ___
         return model.findOneAndDelete().where('token').equals(token);
     })
 
-*Defined in [src/database/repository/refreshRepository.ts:33](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/database/repository/refreshRepository.ts#L33)*
+*Defined in [src/database/repository/refreshRepository.ts:33](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/database/repository/refreshRepository.ts#L33)*
 
 Delets a refresh token by the token
 
@@ -61,7 +61,7 @@ ___
         return model.findOne().where('token').equals(token);
     })
 
-*Defined in [src/database/repository/refreshRepository.ts:22](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/database/repository/refreshRepository.ts#L22)*
+*Defined in [src/database/repository/refreshRepository.ts:22](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/database/repository/refreshRepository.ts#L22)*
 
 Gets a refresh token by the token
 
@@ -77,7 +77,7 @@ Gets a refresh token by the token
 
 ▸ **createRefreshModel**(`connection`: typeof mongoose): *Model‹any›*
 
-*Defined in [src/database/repository/refreshRepository.ts:12](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/database/repository/refreshRepository.ts#L12)*
+*Defined in [src/database/repository/refreshRepository.ts:12](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/database/repository/refreshRepository.ts#L12)*
 
 Creates a new refresh model.
 

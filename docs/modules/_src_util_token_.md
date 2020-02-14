@@ -1,4 +1,4 @@
-[rewrite](../README.md) › [Globals](../globals.md) › ["src/util/token"](_src_util_token_.md)
+[jwt-express-api](../README.md) › [Globals](../globals.md) › ["src/util/token"](_src_util_token_.md)
 
 # External module: "src/util/token"
 
@@ -17,7 +17,7 @@
 
 ▸ **createRefreshToken**(): *string*
 
-*Defined in [src/util/token.ts:29](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/util/token.ts#L29)*
+*Defined in [src/util/token.ts:29](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/util/token.ts#L29)*
 
 Creates a refresh token.
 
@@ -33,7 +33,7 @@ ___
 
 ▸ **createToken**(`payload`: any): *string*
 
-*Defined in [src/util/token.ts:21](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/util/token.ts#L21)*
+*Defined in [src/util/token.ts:21](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/util/token.ts#L21)*
 
 Creates a token from a given payload
 
@@ -55,7 +55,7 @@ ___
 
 ▸ **getSecret**(): *string*
 
-*Defined in [src/util/token.ts:8](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/util/token.ts#L8)*
+*Defined in [src/util/token.ts:8](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/util/token.ts#L8)*
 
 Retreives this applications secret string used for creating tokens
 
@@ -69,7 +69,7 @@ ___
 
 ▸ **verifyToken**(`token`: string): *Promise‹string›*
 
-*Defined in [src/util/token.ts:38](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/util/token.ts#L38)*
+*Defined in [src/util/token.ts:38](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/util/token.ts#L38)*
 
 Verifys a token with our applications secret
 

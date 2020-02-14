@@ -1,4 +1,4 @@
-[rewrite](../README.md) › [Globals](../globals.md) › ["src/class/Refresh"](_src_class_refresh_.md)
+[jwt-express-api](../README.md) › [Globals](../globals.md) › ["src/class/Refresh"](_src_class_refresh_.md)
 
 # External module: "src/class/Refresh"
 

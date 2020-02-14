@@ -1,4 +1,4 @@
-[rewrite](../README.md) › [Globals](../globals.md) › ["src/service/authService"](_src_service_authservice_.md)
+[jwt-express-api](../README.md) › [Globals](../globals.md) › ["src/service/authService"](_src_service_authservice_.md)
 
 # External module: "src/service/authService"
 
@@ -25,7 +25,7 @@
 
 • **CREATION**: *"CREATION"* = "CREATION"
 
-*Defined in [src/service/authService.ts:17](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/service/authService.ts#L17)*
+*Defined in [src/service/authService.ts:17](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/service/authService.ts#L17)*
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 • **EXISTS**: *"EXISTS"* = "EXISTS"
 
-*Defined in [src/service/authService.ts:15](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/service/authService.ts#L15)*
+*Defined in [src/service/authService.ts:15](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/service/authService.ts#L15)*
 
 Error string variables.
 so if you cant type like me you dont need to worry.
@@ -44,7 +44,7 @@ ___
 
 • **NOT_FOUND**: *"NOT_FOUND"* = "NOT_FOUND"
 
-*Defined in [src/service/authService.ts:19](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/service/authService.ts#L19)*
+*Defined in [src/service/authService.ts:19](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/service/authService.ts#L19)*
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 • **PASSWORD**: *"PASSWORD"* = "PASSWORD"
 
-*Defined in [src/service/authService.ts:18](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/service/authService.ts#L18)*
+*Defined in [src/service/authService.ts:18](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/service/authService.ts#L18)*
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 • **TOKEN**: *"TOKEN"* = "TOKEN"
 
-*Defined in [src/service/authService.ts:16](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/service/authService.ts#L16)*
+*Defined in [src/service/authService.ts:16](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/service/authService.ts#L16)*
 
 ## Functions
 
@@ -68,7 +68,7 @@ ___
 
 ▸ **loginService**(`req`: Request, `res`: Response, `next`: NextFunction): *Promise‹void›*
 
-*Defined in [src/service/authService.ts:30](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/service/authService.ts#L30)*
+*Defined in [src/service/authService.ts:30](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/service/authService.ts#L30)*
 
 Login Service
 This service logs a requested user into our application responding with a set of tokens.
@@ -93,7 +93,7 @@ ___
 
 ▸ **logoutService**(`req`: Request, `res`: Response, `next`: NextFunction): *Promise‹void›*
 
-*Defined in [src/service/authService.ts:143](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/service/authService.ts#L143)*
+*Defined in [src/service/authService.ts:143](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/service/authService.ts#L143)*
 
 Logout Service
 Logout service logs a user our of our application by setting there tokens to empty strings and deleting
@@ -119,7 +119,7 @@ ___
 
 ▸ **refreshService**(`req`: Request, `res`: Response, `next`: NextFunction): *Promise‹void›*
 
-*Defined in [src/service/authService.ts:108](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/service/authService.ts#L108)*
+*Defined in [src/service/authService.ts:108](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/service/authService.ts#L108)*
 
 Refresh Service
 Refresh service refreshes a users tokens if they have gone stale.
@@ -144,7 +144,7 @@ ___
 
 ▸ **signupService**(`req`: Request, `res`: Response, `next`: NextFunction): *Promise‹void›*
 
-*Defined in [src/service/authService.ts:68](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/service/authService.ts#L68)*
+*Defined in [src/service/authService.ts:68](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/service/authService.ts#L68)*
 
 Signup Service
 This service signs a new user up to our application and also responds with a set of tokens.

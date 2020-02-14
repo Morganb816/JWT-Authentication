@@ -1,4 +1,4 @@
-[rewrite](../README.md) › [Globals](../globals.md) › ["src/corsConfig"](_src_corsconfig_.md)
+[jwt-express-api](../README.md) › [Globals](../globals.md) › ["src/corsConfig"](_src_corsconfig_.md)
 
 # External module: "src/corsConfig"
 
@@ -14,7 +14,7 @@
 
 ### ▪ **corsConfig**: *object*
 
-*Defined in [src/corsConfig.ts:9](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/corsConfig.ts#L9)*
+*Defined in [src/corsConfig.ts:9](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/corsConfig.ts#L9)*
 
 Cors configuration for our application.
 
@@ -26,7 +26,7 @@ Cors configuration for our application.
 
 • **credentials**: *true* = true
 
-*Defined in [src/corsConfig.ts:23](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/corsConfig.ts#L23)*
+*Defined in [src/corsConfig.ts:23](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/corsConfig.ts#L23)*
 
 ###  exposedHeaders
 
@@ -35,13 +35,13 @@ Cors configuration for our application.
         'Set-Cookie'
     ]
 
-*Defined in [src/corsConfig.ts:19](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/corsConfig.ts#L19)*
+*Defined in [src/corsConfig.ts:19](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/corsConfig.ts#L19)*
 
 ###  origin
 
 ▸ **origin**(`origin`: string | undefined, `callback`: function): *void*
 
-*Defined in [src/corsConfig.ts:10](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/corsConfig.ts#L10)*
+*Defined in [src/corsConfig.ts:10](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/corsConfig.ts#L10)*
 
 **Parameters:**
 

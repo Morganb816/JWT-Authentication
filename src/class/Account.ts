@@ -1,8 +1,4 @@
 /**
- *  @module Account
- */
-
-/**
  * 
  * Account represents a users account in our application. Things like
  * first name, last name, contact info, should be stored somewhere else.

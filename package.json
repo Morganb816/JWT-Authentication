@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tsnd --respawn --transpileOnly ./src/app.ts",
     "document": "npx typedoc --out ../docs ./src",
-    "generateMarkdown": "npx typedoc --plugin typedoc-plugin-markdown"
+    "generateMarkdown": "npx typedoc --plugin typedoc-plugin-markdown --mode modules"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,7 @@
     "@microsoft/tsdoc": "^0.12.16",
     "ts-node-dev": "^1.0.0-pre.44",
     "typedoc": "^0.16.9",
+    "typedoc-plugin-external-module-name": "^3.0.0",
     "typedoc-plugin-markdown": "^2.2.16",
     "typescript": "^3.7.5"
   },

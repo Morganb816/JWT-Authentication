@@ -1,4 +1,4 @@
-[rewrite](../README.md) › [Globals](../globals.md) › ["src/controller/authController"](_src_controller_authcontroller_.md)
+[jwt-express-api](../README.md) › [Globals](../globals.md) › ["src/controller/authController"](_src_controller_authcontroller_.md)
 
 # External module: "src/controller/authController"
 
@@ -15,7 +15,7 @@
 
 • **authController**: *Router* = Router()
 
-*Defined in [src/controller/authController.ts:15](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/controller/authController.ts#L15)*
+*Defined in [src/controller/authController.ts:15](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/controller/authController.ts#L15)*
 
 Auth Controller.
 This is our controller for handling authorization related services.
@@ -30,4 +30,4 @@ ___
 
 • **logout**: *Router* = Router()
 
-*Defined in [src/controller/authController.ts:23](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/controller/authController.ts#L23)*
+*Defined in [src/controller/authController.ts:23](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/controller/authController.ts#L23)*

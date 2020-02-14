@@ -1,4 +1,4 @@
-[rewrite](../README.md) › [Globals](../globals.md) › ["src/database/util/index"](_src_database_util_index_.md)
+[jwt-express-api](../README.md) › [Globals](../globals.md) › ["src/database/util/index"](_src_database_util_index_.md)
 
 # External module: "src/database/util/index"
 
@@ -16,7 +16,7 @@
 
 ▸ **createDatabaseConnection**(`url`: string): *Promise‹typeof mongoose›*
 
-*Defined in [src/database/util/index.ts:8](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/database/util/index.ts#L8)*
+*Defined in [src/database/util/index.ts:8](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/database/util/index.ts#L8)*
 
 Create Database Connection does exactly what you think it would.
 
@@ -38,7 +38,7 @@ ___
 
 ▸ **createInteraction**(`model`: Model‹any› | undefined, `func`: Function): *Function*
 
-*Defined in [src/database/util/index.ts:41](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/database/util/index.ts#L41)*
+*Defined in [src/database/util/index.ts:41](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/database/util/index.ts#L41)*
 
  * Create Interaction creates a connection between a model and the database connection.
 If the model is not loaded yet or is broken we catch that so we dont have to check
@@ -63,7 +63,7 @@ ___
 
 ▸ **createSync**(`model`: Model‹any›, `data`: any): *Promise‹any›*
 
-*Defined in [src/database/util/index.ts:24](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/database/util/index.ts#L24)*
+*Defined in [src/database/util/index.ts:24](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/database/util/index.ts#L24)*
 
 Create sync is a synchronus version of mongoose's create method.
 It "decallbackify's" the function.

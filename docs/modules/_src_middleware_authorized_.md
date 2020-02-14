@@ -1,4 +1,4 @@
-[rewrite](../README.md) › [Globals](../globals.md) › ["src/middleware/authorized"](_src_middleware_authorized_.md)
+[jwt-express-api](../README.md) › [Globals](../globals.md) › ["src/middleware/authorized"](_src_middleware_authorized_.md)
 
 # External module: "src/middleware/authorized"
 
@@ -14,7 +14,7 @@
 
 ▸ **authenticated**(`req`: Request, `res`: Response, `next`: NextFunction): *Promise‹void›*
 
-*Defined in [src/middleware/authorized.ts:13](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/middleware/authorized.ts#L13)*
+*Defined in [src/middleware/authorized.ts:13](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/middleware/authorized.ts#L13)*
 
 Authenticated is our middleware we use to see if a token is valid.
 If it is we pass along the users username in the response locals for

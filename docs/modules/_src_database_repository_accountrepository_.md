@@ -1,4 +1,4 @@
-[rewrite](../README.md) › [Globals](../globals.md) › ["src/database/repository/accountRepository"](_src_database_repository_accountrepository_.md)
+[jwt-express-api](../README.md) › [Globals](../globals.md) › ["src/database/repository/accountRepository"](_src_database_repository_accountrepository_.md)
 
 # External module: "src/database/repository/accountRepository"
 
@@ -23,7 +23,7 @@
         return createSync(model, { username: acc.username, password: acc.password })
     })
 
-*Defined in [src/database/repository/accountRepository.ts:43](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/database/repository/accountRepository.ts#L43)*
+*Defined in [src/database/repository/accountRepository.ts:43](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/database/repository/accountRepository.ts#L43)*
 
 Creates an account from a given Account
 
@@ -42,7 +42,7 @@ ___
         return model.findOneAndDelete().where('username').equals(username);
     })
 
-*Defined in [src/database/repository/accountRepository.ts:32](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/database/repository/accountRepository.ts#L32)*
+*Defined in [src/database/repository/accountRepository.ts:32](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/database/repository/accountRepository.ts#L32)*
 
 Delets an account by username.
 
@@ -61,7 +61,7 @@ ___
         return model.findOne().where('username').equals(username);
     })
 
-*Defined in [src/database/repository/accountRepository.ts:21](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/database/repository/accountRepository.ts#L21)*
+*Defined in [src/database/repository/accountRepository.ts:21](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/database/repository/accountRepository.ts#L21)*
 
 Gets an account by username.
 
@@ -77,7 +77,7 @@ Gets an account by username.
 
 ▸ **createAccountModel**(`connection`: typeof mongoose): *Model‹any›*
 
-*Defined in [src/database/repository/accountRepository.ts:12](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/database/repository/accountRepository.ts#L12)*
+*Defined in [src/database/repository/accountRepository.ts:12](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/database/repository/accountRepository.ts#L12)*
 
 Creats a account model.
 

@@ -1,6 +1,6 @@
-[rewrite](README.md) › [Globals](globals.md)
+[jwt-express-api](README.md) › [Globals](globals.md)
 
-# rewrite
+# jwt-express-api
 
 # JWT-Authentication
 API written in TypeScript with JWT authentication implemented.

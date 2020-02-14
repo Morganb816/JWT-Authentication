@@ -1,4 +1,4 @@
-[rewrite](../README.md) › [Globals](../globals.md) › ["src/class/Account"](_src_class_account_.md)
+[jwt-express-api](../README.md) › [Globals](../globals.md) › ["src/class/Account"](_src_class_account_.md)
 
 # External module: "src/class/Account"
 

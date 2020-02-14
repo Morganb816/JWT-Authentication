@@ -1,4 +1,4 @@
-[rewrite](../README.md) › [Globals](../globals.md) › ["src/class/Account"](../modules/_src_class_account_.md) › [Account](_src_class_account_.account.md)
+[jwt-express-api](../README.md) › [Globals](../globals.md) › ["src/class/Account"](../modules/_src_class_account_.md) › [Account](_src_class_account_.account.md)
 
 # Class: Account
 
@@ -36,7 +36,7 @@ first name, last name, contact info, should be stored somewhere else.
 
 \+ **new Account**(`username`: string, `password`: string): *[Account](_src_class_account_.account.md)*
 
-*Defined in [src/class/Account.ts:16](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/class/Account.ts#L16)*
+*Defined in [src/class/Account.ts:17](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/class/Account.ts#L17)*
 
 **Parameters:**
 
@@ -55,7 +55,7 @@ Name | Type |
 
 *Implementation of [AccountInterface](../interfaces/_src_class_account_.accountinterface.md).[password](../interfaces/_src_class_account_.accountinterface.md#password)*
 
-*Defined in [src/class/Account.ts:16](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/class/Account.ts#L16)*
+*Defined in [src/class/Account.ts:17](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/class/Account.ts#L17)*
 
 ___
 
@@ -65,4 +65,4 @@ ___
 
 *Implementation of [AccountInterface](../interfaces/_src_class_account_.accountinterface.md).[username](../interfaces/_src_class_account_.accountinterface.md#username)*
 
-*Defined in [src/class/Account.ts:15](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/class/Account.ts#L15)*
+*Defined in [src/class/Account.ts:16](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/class/Account.ts#L16)*

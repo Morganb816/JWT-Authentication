@@ -1,4 +1,4 @@
-[rewrite](../README.md) › [Globals](../globals.md) › ["src/class/Refresh"](../modules/_src_class_refresh_.md) › [RefreshInterface](_src_class_refresh_.refreshinterface.md)
+[jwt-express-api](../README.md) › [Globals](../globals.md) › ["src/class/Refresh"](../modules/_src_class_refresh_.md) › [RefreshInterface](_src_class_refresh_.refreshinterface.md)
 
 # Interface: RefreshInterface
 
@@ -27,7 +27,7 @@
 
 • **token**: *string*
 
-*Defined in [src/class/Refresh.ts:24](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/class/Refresh.ts#L24)*
+*Defined in [src/class/Refresh.ts:24](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/class/Refresh.ts#L24)*
 
 ___
 
@@ -35,4 +35,4 @@ ___
 
 • **username**: *string*
 
-*Defined in [src/class/Refresh.ts:25](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/class/Refresh.ts#L25)*
+*Defined in [src/class/Refresh.ts:25](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/class/Refresh.ts#L25)*

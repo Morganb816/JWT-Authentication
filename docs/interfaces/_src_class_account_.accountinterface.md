@@ -1,4 +1,4 @@
-[rewrite](../README.md) › [Globals](../globals.md) › ["src/class/Account"](../modules/_src_class_account_.md) › [AccountInterface](_src_class_account_.accountinterface.md)
+[jwt-express-api](../README.md) › [Globals](../globals.md) › ["src/class/Account"](../modules/_src_class_account_.md) › [AccountInterface](_src_class_account_.accountinterface.md)
 
 # Interface: AccountInterface
 
@@ -27,7 +27,7 @@
 
 • **password**: *string*
 
-*Defined in [src/class/Account.ts:28](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/class/Account.ts#L28)*
+*Defined in [src/class/Account.ts:29](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/class/Account.ts#L29)*
 
 ___
 
@@ -35,4 +35,4 @@ ___
 
 • **username**: *string*
 
-*Defined in [src/class/Account.ts:27](https://github.com/Morganb816/JWT-Authentication/blob/e3bc080/src/class/Account.ts#L27)*
+*Defined in [src/class/Account.ts:28](https://github.com/Morganb816/JWT-Authentication/blob/f809911/src/class/Account.ts#L28)*
