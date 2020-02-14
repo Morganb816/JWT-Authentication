@@ -1,6 +1,8 @@
 # JWT-Authentication
 API written in TypeScript with JWT authentication implemented.
 
+# [DOCUMENTATION](./docs/globals.md)
+
 # Technology Used
 * Typescript
 * Express
