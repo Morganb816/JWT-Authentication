@@ -7,7 +7,7 @@ import mongoose, { Model } from 'mongoose';
  */
 export async function createDatabaseConnection(url: string): Promise<typeof mongoose> {
     try {
-        const connection: typeof mongoose = await mongoose.connect(url, { useNewUrlParser: true });
+        const connection: typeof mongoose = await mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true });
         return connection;
     } catch (err) {
         return err;
