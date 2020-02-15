@@ -53,7 +53,7 @@ function createDatabaseConnection(url) {
             switch (_a.label) {
                 case 0:
                     _a.trys.push([0, 2, , 3]);
-                    return [4 /*yield*/, mongoose_1.default.connect(url, { useNewUrlParser: true })];
+                    return [4 /*yield*/, mongoose_1.default.connect(url, { useNewUrlParser: true, useUnifiedTopology: true })];
                 case 1:
                     connection = _a.sent();
                     return [2 /*return*/, connection];
